@@ -123,7 +123,7 @@ export default function Footer() {
         {/* Bottom row */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-[11px] text-gray-600 font-mono">
-            © 2025 Mandar Ravi Kukde. All rights reserved.
+            © 2026 Mandar Ravi Kukde. All rights reserved.
           </p>
           <p className="text-[11px] text-gray-600 font-mono">
             Built with Next.js · React Three Fiber · Framer Motion

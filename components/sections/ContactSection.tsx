@@ -170,7 +170,7 @@ return (
                 </span>
               </div>
               <h3 className="font-display font-extrabold text-lg text-gray-900 mb-2 leading-tight">
-                Seeking Summer Internship 2025
+                Open to Internships, Research Opportunities & Industry Collaborations
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-5">
                 Immediately available for MBA summer internship roles in
