@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mandarkukde.vercel.app"),
   title: "Mandar Kukde | Pharmaceutical Scientist & Healthcare Strategist",
   description:
     "Dual-degree M.Pharm + MBA candidate at NMIMS. Patent holder, national award winner, and pharmaceutical scientist bridging advanced drug delivery science with healthcare strategy.",
