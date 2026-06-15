@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://mandarkukde.vercel.app"),
-  title: "Mandar Kukde | Pharmaceutical Scientist & Healthcare Strategist",
+  title: "Mandar Kukde | Pharmaceutical Student & Healthcare Strategist",
   description:
     "Dual-degree M.Pharm + MBA candidate at NMIMS. Patent holder, national award winner, and pharmaceutical scientist bridging advanced drug delivery science with healthcare strategy.",
   keywords: [
@@ -18,13 +18,27 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Mandar Ravi Kukde" }],
   creator: "Mandar Ravi Kukde",
-  openGraph: {
-    title: "Mandar Kukde | Pharmaceutical Scientist & Healthcare Strategist",
-    description:
-      "Dual-degree M.Pharm + MBA at NMIMS. Patent holder, national award winner, vesicular drug delivery researcher.",
-    type: "website",
-    locale: "en_IN",
+  alternates: {
+  canonical: "/",
+},
+
+robots: {
+  index: true,
+  follow: true,
+  googleBot: {
+    index: true,
+    follow: true,
   },
+},
+  openGraph: {
+  title: "Mandar Kukde | Pharmaceutical Scientist & Healthcare Strategist",
+  description:
+    "Dual-degree M.Pharm + MBA at NMIMS. Patent holder, national award winner, vesicular drug delivery researcher.",
+  url: "https://mandarkukde.vercel.app",
+  siteName: "Mandar Kukde Portfolio",
+  type: "website",
+  locale: "en_IN",
+},
 };
 
 export const viewport: Viewport = {
