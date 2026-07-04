@@ -18,8 +18,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Mandar Ravi Kukde" }],
   creator: "Mandar Ravi Kukde",
+  publisher: "Mandar Ravi Kukde",
   alternates: {
-  canonical: "/",
+  canonical: "https://mandarkukde.vercel.app",
 },
 
 robots: {
@@ -38,6 +39,11 @@ robots: {
   siteName: "Mandar Kukde Portfolio",
   type: "website",
   locale: "en_IN",
+},twitter: {
+  card: "summary_large_image",
+  title: "Mandar Kukde",
+  description:
+    "M.Pharm + MBA Candidate | Pharmaceutical Researcher | Patent Holder",
 },
 };
 
